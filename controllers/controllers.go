@@ -8,7 +8,7 @@ import (
 // Status blablabla
 func Status(c *gin.Context) {
 
-	c.JSON(http.StatusOK, "Hello")
+	c.JSON(http.StatusOK, "Hello v2")
 
 }
 
